@@ -16,7 +16,7 @@ const headers = {
     'Content-Type': 'application/json'
 }
 
-// TODO: ROUTE 1 - Homepage route to display custom object data in a table format.
+// TODO: ROUTE 1 - Homepage route to display custom object data in a table format..
 
 app.get('/', async (req, res) => {
     axios.get(`https://api.hubapi.com/crm/v3/objects/${CUSTOM_OBJECT}?properties=name,company,model_year,car_type`, { 
